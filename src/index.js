@@ -1,5 +1,5 @@
 import Card from "./Elements/Card/index";
-import CheckBox from "./Elements/CheckBox/index";
+/*import CheckBox from "./Elements/CheckBox/index";
 import DatePicker from "./Elements/DatePicker/index";
 import Drawer from "./Elements/Drawer/index";
 import DropDown from "./Elements/DropDown/index";
@@ -34,7 +34,7 @@ import Progress from "./Elements/Progress/index";
 import Carousel from "./Elements/Carousel/index";
 import Skeleton from "./Elements/Skeleton/index";
 import FormUt from "./FormUtils/index";
-import FilterUt from "./FilterUtils/index";
+import FilterUt from "./FilterUtils/index";*/
 
 export default {
     Card,
