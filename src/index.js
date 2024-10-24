@@ -25,7 +25,7 @@ import Spin from "./Elements/Spin/index";
 import Row from "./Elements/Row/index";
 import Col from "./Elements/Col/index";
 import Empty from "./Elements/Empty/index";
-import Tag from "./Elements/Tag/index";
+import TagC from "./Elements/Tag/index";
 import TextArea from "./Elements/TextArea/index";
 import List from "./Elements/List/index";
 import Divider from "./Elements/Divider/index";
@@ -36,6 +36,8 @@ import Skeleton from "./Elements/Skeleton/index";
 import FormUt from "./FormUtils/index";
 import FilterUt from "./FilterUtils/index";
 
+
+export const Tag = TagC
 
 export default {
     Card,
@@ -64,7 +66,7 @@ export default {
     Row,
     Col,
     Empty,
-    Tag,
+    Tag: TagC,
     TextArea,
     List,
     Divider,
