@@ -1,0 +1,220 @@
+.rc-tag {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum', "tnum";
+    font-feature-settings: 'tnum', "tnum";
+    display: inline-block;
+    height: auto;
+    margin-right: 8px;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    background: #fafafa;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: default;
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+    transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.rc-tag:hover {
+    opacity: 0.85;
+}
+.rc-tag,
+.rc-tag a,
+.rc-tag a:hover {
+    color: rgba(0, 0, 0, 0.65);
+}
+.rc-tag > a:first-child:last-child {
+    display: inline-block;
+    margin: 0 -8px;
+    padding: 0 8px;
+}
+.rc-tag .anticon-close {
+    display: inline-block;
+    font-size: 12px;
+    font-size: 10px \9;
+    -webkit-transform: scale(0.83333333) rotate(0deg);
+    -ms-transform: scale(0.83333333) rotate(0deg);
+    transform: scale(0.83333333) rotate(0deg);
+    margin-left: 3px;
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+    transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+:root .rc-tag .anticon-close {
+    font-size: 12px;
+}
+.rc-tag .anticon-close:hover {
+    color: rgba(0, 0, 0, 0.85);
+}
+.rc-tag-has-color {
+    border-color: transparent;
+}
+.rc-tag-has-color,
+.rc-tag-has-color a,
+.rc-tag-has-color a:hover,
+.rc-tag-has-color .anticon-close,
+.rc-tag-has-color .anticon-close:hover {
+    color: #fff;
+}
+.rc-tag-checkable {
+    background-color: transparent;
+    border-color: transparent;
+}
+.rc-tag-checkable:not(.rc-tag-checkable-checked):hover {
+    color: #36c889;
+}
+.rc-tag-checkable:active,
+.rc-tag-checkable-checked {
+    color: #fff;
+}
+.rc-tag-checkable-checked {
+    background-color: #36c889;
+}
+.rc-tag-checkable:active {
+    background-color: #23a16f;
+}
+.rc-tag-hidden {
+    display: none;
+}
+.rc-tag-pink {
+    color: #eb2f96;
+    background: #fff0f6;
+    border-color: #ffadd2;
+}
+.rc-tag-pink-inverse {
+    color: #fff;
+    background: #eb2f96;
+    border-color: #eb2f96;
+}
+.rc-tag-magenta {
+    color: #eb2f96;
+    background: #fff0f6;
+    border-color: #ffadd2;
+}
+.rc-tag-magenta-inverse {
+    color: #fff;
+    background: #eb2f96;
+    border-color: #eb2f96;
+}
+.rc-tag-red {
+    color: #f5222d;
+    background: #fff1f0;
+    border-color: #ffa39e;
+}
+.rc-tag-red-inverse {
+    color: #fff;
+    background: #f5222d;
+    border-color: #f5222d;
+}
+.rc-tag-volcano {
+    color: #fa541c;
+    background: #fff2e8;
+    border-color: #ffbb96;
+}
+.rc-tag-volcano-inverse {
+    color: #fff;
+    background: #fa541c;
+    border-color: #fa541c;
+}
+.rc-tag-orange {
+    color: #fa8c16;
+    background: #fff7e6;
+    border-color: #ffd591;
+}
+.rc-tag-orange-inverse {
+    color: #fff;
+    background: #fa8c16;
+    border-color: #fa8c16;
+}
+.rc-tag-yellow {
+    color: #fadb14;
+    background: #feffe6;
+    border-color: #fffb8f;
+}
+.rc-tag-yellow-inverse {
+    color: #fff;
+    background: #fadb14;
+    border-color: #fadb14;
+}
+.rc-tag-gold {
+    color: #faad14;
+    background: #fffbe6;
+    border-color: #ffe58f;
+}
+.rc-tag-gold-inverse {
+    color: #fff;
+    background: #faad14;
+    border-color: #faad14;
+}
+.rc-tag-cyan {
+    color: #13c2c2;
+    background: #e6fffb;
+    border-color: #87e8de;
+}
+.rc-tag-cyan-inverse {
+    color: #fff;
+    background: #13c2c2;
+    border-color: #13c2c2;
+}
+.rc-tag-lime {
+    color: #a0d911;
+    background: #fcffe6;
+    border-color: #eaff8f;
+}
+.rc-tag-lime-inverse {
+    color: #fff;
+    background: #a0d911;
+    border-color: #a0d911;
+}
+.rc-tag-green {
+    color: #52c41a;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+}
+.rc-tag-green-inverse {
+    color: #fff;
+    background: #52c41a;
+    border-color: #52c41a;
+}
+.rc-tag-blue {
+    color: #1890ff;
+    background: #e6f7ff;
+    border-color: #91d5ff;
+}
+.rc-tag-blue-inverse {
+    color: #fff;
+    background: #1890ff;
+    border-color: #1890ff;
+}
+.rc-tag-geekblue {
+    color: #2f54eb;
+    background: #f0f5ff;
+    border-color: #adc6ff;
+}
+.rc-tag-geekblue-inverse {
+    color: #fff;
+    background: #2f54eb;
+    border-color: #2f54eb;
+}
+.rc-tag-purple {
+    color: #722ed1;
+    background: #f9f0ff;
+    border-color: #d3adf7;
+}
+.rc-tag-purple-inverse {
+    color: #fff;
+    background: #722ed1;
+    border-color: #722ed1;
+}

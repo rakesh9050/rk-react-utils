@@ -1,0 +1,202 @@
+.rc-select * {
+    font-family: "Poppins", sans-serif;
+}
+
+.rc-select-selector {
+    height: 42px;
+    border-radius: 0.25rem;
+    border-color: #666;
+}
+
+.rc-select-selector:focus {
+    border-color: #ddd !important;
+}
+
+.rc-select-focused .rc-select-selector {
+    border-color: #ddd !important;
+}
+
+.rc-select-single .rc-select-selector .rc-select-selection-placeholder {
+    height: 40px;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.rc-select-single .rc-select-selector .rc-select-selection-item {
+    height: 38px;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 1px 10px;
+}
+
+.rc-select-single .rc-select-selector .rc-select-selection-search {
+    height: 42px;
+}
+
+.rc-select-single:not(.rc-select-customize-input) .rc-select-selector .rc-select-selection-search-input {
+    height: 38px;
+    padding: 0 10px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.rc-select-allow-clear .rc-select-clear {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    /* height: 42px; */
+    vertical-align: middle;
+    background: #7a6e6e;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.rc-select-clear-icon {
+    font-size: 21px;
+    font-weight: 300;
+    /* margin: 0; */
+    padding: 0 5px;
+    line-height: 25px;
+    border-radius: 50px;
+    position: relative;
+    color: white;
+}
+
+.rc-select-item-option-content {
+    font-size: 14px;
+}
+
+.rc-virtual-list-scrollbar {
+    width: 3px !important;
+}
+
+.rc-select-item {
+    padding: 5px 10px;
+}
+
+.rc-select-item-option-active {
+    background: #e6f7ff;
+    color: white;
+    cursor: pointer;
+}
+
+.rc-select-item-option .rc-select-item-option-state {
+    top: -2px;
+    padding: 0;
+}
+
+.rc-select-item-option-selected .rc-select-item-option-state:after {
+    font-family: boxicons;
+    content: "";
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.rc-select-item-option-state-icon {
+    display: none;
+}
+
+.rc-select-dropdown {
+    z-index: 9999;
+}
+
+.select-small .rc-select-selector {
+    height: 30px;
+}
+
+.select-small.rc-select {
+    background-size: 15px !important;
+    background-position: right 6px center;
+}
+
+.select-small.rc-select-single .rc-select-selector .rc-select-selection-placeholder {
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
+.select-small.rc-select-single .rc-select-selector .rc-select-selection-item {
+    height: 26px;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 1px 5px;
+}
+
+.select-small.rc-select-single .rc-select-selector .rc-select-selection-search {
+    height: 30px;
+}
+
+.select-small.rc-select-single:not(.rc-select-customize-input) .rc-select-selector .rc-select-selection-search-input {
+    height: 26px !important;
+    font-size: 12px;
+}
+
+.select-small .rc-select-allow-clear .rc-select-clear {
+    height: 30px;
+}
+
+.rc-select-dropdown {
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum', "tnum",;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    z-index: 1050;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-variant: initial;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.rc-select-item-option {
+    position: relative;
+    display: block;
+    padding: 5px 12px;
+    /* overflow: hidden; */
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid #edededbf;
+}
+
+
+.rc-select-item-option:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #e6f7ff;
+}
+
+.rc-select-item-empty {
+    text-align: center;
+    color: #999;
+    padding: 30px 20px;
+    font-family: Poppins;
+}

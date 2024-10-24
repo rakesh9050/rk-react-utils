@@ -1,0 +1,109 @@
+.rc-checkbox-inner {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.rc-checkbox-input {
+
+}
+
+.rc-checkbox-checked .rc-checkbox-inner:after {
+    transform: rotate(45deg);
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    display: table;
+    width: 5px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    animation-duration: 0.3s;
+    animation-name: amCheckboxOut;
+}
+
+.rc-checkbox-unchecked .rc-checkbox-inner:after {
+    transform: rotate(45deg);
+    position: absolute;
+    left: 7px;
+    top: 3px;
+
+}
+
+.rc-checkbox-checked .rc-checkbox-inner {
+    border-color: #696cff;
+    background-color: #696cff;
+}
+
+.inlineStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+}
+
+.blockStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-checkbox {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    padding: 10px 5px;
+    text-transform: capitalize;
+}
+
+.group-checkbox {
+    margin-right: 5px;
+}
+
+.group-checkbox:last-child {
+    margin-right: 0;
+}
+
+
+.checkbox-wrapper input[type='checkbox'] {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 5px;
+}
+
+
+.checkbox-wrapper input[type='checkbox']:checked {
+    background-color: #696cff;
+    border-color: #696cff;
+    box-shadow: 0 .125rem .25rem 0 rgba(105, 108, 255, .4);
+    transform: translate3d(0, 0, 0);
+}
+
+
+.checkbox-wrapper .group-checkbox {
+    padding: 0;
+    margin: 0 10px 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox-wrapper .checkbox-label {
+    padding: 0;
+    position: relative;
+    font-style: normal;
+    margin-left: 2px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+

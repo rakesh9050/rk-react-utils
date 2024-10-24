@@ -1,0 +1,36 @@
+{
+  "name": "rk-react-utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "author": "rakesh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "memoize-one": "^6.0.0",
+    "moment": "^2.30.1",
+    "rc-calendar": "^9.15.11",
+    "rc-dialog": "^9.5.2",
+    "rc-drawer": "^7.2.0",
+    "rc-dropdown": "^4.2.0",
+    "rc-form": "^2.4.12",
+    "rc-notification": "4.6.1",
+    "rc-pagination": "^4.2.0",
+    "rc-select": "^14.15.0",
+    "rc-switch": "^4.1.0",
+    "rc-table": "^7.47.1",
+    "rc-tabs": "^15.1.1",
+    "rc-time-picker": "^3.7.3",
+    "rc-tooltip": "^6.2.0",
+    "rc-trigger": "^5.3.4",
+    "rollup": "^4.24.0"
+  }
+}

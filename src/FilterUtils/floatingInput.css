@@ -1,0 +1,126 @@
+.filter_group input,
+.filter_group .rc-select-selection-item {
+    font-size: 14px;
+}
+.filter_group .rc-select-selection-item {
+    height: 38px;
+}
+.filter_group .did-floating-label-content {
+    position: relative;
+    margin-bottom: 12px;
+}
+.filter_group .did-floating-label {
+    color: #1e4c82;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 5px;
+    padding: 0 5px;
+    background: #fff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.filter_group .did-floating-input,
+.filter_group .did-floating-select,
+.filter_group .did-floating-select-box > input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    background: #fff;
+    color: #323840;
+    border: 1px solid rgba(105, 108, 255, 0.3) !important;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.filter_group .did-floating-input:focus,
+.filter_group .did-floating-select:focus {
+    outline: none;
+}
+.filter_group .did-floating-input:focus ~ .did-floating-label,
+.filter_group .did-floating-select:focus ~ .did-floating-label {
+    top: -6px;
+    font-size: 12.5px;
+    line-height: 1.2;
+}
+.filter_group .did-floating-select-box:focus-within ~ .did-floating-label {
+    top: -6px;
+    font-size: 12.5px;
+    line-height: 1.2;
+}
+.filter_group .did-floating-select-box:not([title=""]) ~ .did-floating-label {
+    top: -7px;
+    font-size: 12.5px;
+    line-height: 1.2;
+}
+.filter_group select.did-floating-select,
+.filter_group .did-floating-select-box > input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.filter_group select.did-floating-select::-ms-expand,
+.filter_group .did-floating-select-box > input::-ms-expand {
+    display: none;
+}
+.filter_group .did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+    top: -4px;
+    font-size: 12.5px;
+    line-height: 1.2;
+}
+.filter_group .did-floating-select:not([value=""]):valid ~ .did-floating-label {
+    top: -7px;
+    font-size: 12.5px;
+    line-height: 1.2;
+}
+.filter_group .did-floating-select[value=""]:focus ~ .did-floating-label {
+    top: 10px;
+    font-size: 12px;
+}
+.filter_group .did-floating-select:not([multiple]):not([size]) {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='6' viewBox='0 0 8 6'%3E%3Cpath id='Path_1' data-name='Path 1' d='M371,294l4,6,4-6Z' transform='translate(-371 -294)' fill='%23003d71'/%3E%3C/svg%3E%0A");
+    background-position: right 15px top 50%;
+    background-repeat: no-repeat;
+}
+.filter_group .did-error-input .did-floating-input,
+.filter_group .did-error-input .did-floating-select,
+.filter_group .did-error-input .did-floating-select-box > input {
+    border: 2px solid #9d3b3b;
+    color: #9d3b3b;
+}
+.filter_group .did-error-input .did-floating-label {
+    font-weight: 600;
+    color: #9d3b3b;
+}
+.filter_group .did-error-input .did-floating-select:not([multiple]):not([size]) {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='6' viewBox='0 0 8 6'%3E%3Cpath id='Path_1' data-name='Path 1' d='M371,294l4,6,4-6Z' transform='translate(-371 -294)' fill='%239d3b3b'/%3E%3C/svg%3E%0A");
+}
+.filter_group .input-group {
+    display: flex;
+}
+.filter_group .input-group .did-floating-input {
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    padding-left: 0;
+}
+.filter_group .input-group-append {
+    display: flex;
+    align-items: center;
+    /*   margin-left:-1px; */
+}
+.filter_group .input-group-text {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    height: 34px;
+    color: #323840;
+    padding: 0 5px 0 20px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #3D85D8;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}

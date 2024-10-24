@@ -1,0 +1,125 @@
+:root {
+    --border-color: #ffe0e0;
+}
+
+.rc-calendar-range {
+    /*width: 502px !important;*/
+}
+
+.rc-calendar-picker {
+    z-index: 10000;
+}
+
+.rc-calendar {
+    width: 340px;
+}
+
+.rc-calendar-body {
+    height: auto;
+}
+
+.rc-calendar-cell {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 0;
+    color: rgba(0, 0, 0, .65);
+    line-height: 22px;
+    text-align: center;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+}
+
+.rc-calendar-cell:not(.rc-calendar-selected-date):hover .rc-calendar-date {
+    background-color: #ccc;
+}
+
+.rc-calendar-body tr {
+    border: none !important;
+}
+
+.rc-calendar-body table tr td:not(:nth-child(0)), table tr th:not(:nth-child(0)) {
+    border-right: none !important;
+    border-bottom: none !important;
+    font-family: Poppins;
+}
+
+.rc-calendar-year-select, .rc-calendar-month-select {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Poppins;
+}
+
+.rc-calendar-input {
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+.rc-calendar-footer-btn {
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+.rc-calendar-clear-btn:after {
+    content: "x";
+    font-size: 18px;
+    color: #aaa;
+    display: inline-block;
+    line-height: 1;
+    width: 20px;
+    transition: color 0.3s ease;
+}
+
+.rc-calendar-date {
+    display: block;
+    margin: 0 auto;
+    color: #666;
+    border-radius: 4px 4px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: transparent;
+    line-height: 26px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.rc-calendar-prev-month-btn, .rc-calendar-next-month-btn, .rc-calendar-prev-year-btn, .rc-calendar-next-year-btn {
+    font-size: 1.4rem;
+}
+
+.rc-calendar-column-header {
+    font-size: 0.8rem;
+    border-right: none !important;
+}
+
+.rc-calendar {
+    position: relative;
+    outline: none;
+    font-family: Poppins;
+    list-style: none;
+    font-size: 12px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px #ddd;
+    border: none;
+    line-height: 1.5;
+}
+
+.rc-calendar-body table tr td:not(:nth-child(0)), table tr th:not(:nth-child(0)) {
+    border: none !important;
+}
+
+.rc-calendar-footer {
+    border-top: 1px solid var(--border-color);
+}
+
+.rc-calendar-header {
+    padding: 2px 10px;
+    height: 40px;
+    border-bottom: 1px solid var(--border-color);
+}

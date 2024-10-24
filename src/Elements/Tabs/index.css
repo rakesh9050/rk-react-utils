@@ -1,0 +1,33 @@
+.rc-tabs {
+    /*border: 1px solid #dee2e6 !important;*/
+    border: none !important;
+}
+
+.rc-tabs-nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.rc-tabs-tab {
+    padding: 8px 15%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f1f1f1;
+}
+
+.rc-tabs-ink-bar {
+    background: #1890ff;
+}
+
+.rc-tabs-top .rc-tabs-ink-bar,
+.rc-tabs-bottom .rc-tabs-ink-bar {
+    height: 2px;
+}
+
+.rc-tabs-tab-active {
+    font-weight: 500;
+    color: #1890ff;
+}
+
+.rc-table-content {
+    background-color: transparent;
+}

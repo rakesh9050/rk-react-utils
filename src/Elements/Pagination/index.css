@@ -1,0 +1,66 @@
+.pagination-box {
+    margin-top: 0.3rem !important;
+    padding-right: 20px;
+}
+
+.rc-pagination {
+    margin-bottom: 1rem !important;
+}
+
+.rc-pagination-item-active {
+    font-weight: 500;
+    background: #fff !important;
+    border: 1px solid #1890ff !important;
+}
+
+.rc-pagination-item-active a {
+    color: #1890ff !important;
+}
+
+
+.rc-pagination-item:not(:first-child) {
+    /*margin-left: .375rem;*/
+}
+
+
+.rc-pagination-prev .rc-pagination-item-link, .rc-pagination-next .rc-pagination-item-link {
+    /*min-width: 25px !important;*/
+}
+
+.rc-pagination-item {
+    /*background-color: rgba(34, 48, 62, 0.06);*/
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0);
+    text-align: center;
+
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    min-width: 24px;
+    height: 24px;
+
+}
+
+.rc-pagination-item-link {
+    text-align: center;
+    background-color: transparent !important;
+    margin-left: .375rem;
+    width: 24px !important;
+    height: 24px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-box {
+    height: 50px;
+}
+
+.rc-pagination {
+    margin-bottom: 10px !important;
+}
+
+.rc-pagination-prev, .rc-pagination-next, .rc-pagination-jump-prev, .rc-pagination-jump-next {
+    width: 24px !important;
+    height: 24px !important;
+}
